@@ -22,11 +22,11 @@ public class Complex {
         this.im = im;
     }
 
-    public Complex sum(Complex oth) {
+    public Complex addition(Complex oth) {
         return new Complex(this.re + oth.re, this.im + oth.im);
     }
 
-    public Complex difference(Complex oth){
+    public Complex substraction(Complex oth){
         return new Complex(this.re - oth.re, this.im - oth.im);
     }
 
