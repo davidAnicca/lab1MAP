@@ -1,10 +1,10 @@
 import java.util.List;
 
-public abstract class ComplexExpresion {
+public abstract class ComplexExpression {
     private Operation operation;
     private List<Complex> args;
 
-    public ComplexExpresion(Operation operation, List<Complex> args) {
+    public ComplexExpression(Operation operation, List<Complex> args) {
         this.operation = operation;
         this.args = args;
     }
